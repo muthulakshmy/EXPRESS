@@ -42,6 +42,8 @@ const app= express();
 
 const port = 5001;
 
+
+//middleware types
 //Built in middleware
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
